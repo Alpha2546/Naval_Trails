@@ -1,0 +1,19 @@
+{
+  "target": "pa/units/sea/missile_ship/missile_ship.json", 
+  "patch": [
+    {
+      "op": "add", 
+      "path": "/fx_offsets/-", 
+      "value": {
+        "bone": "bone_root", 
+        "filename": "/pa/units/sea/missile_ship/wtrail_generated.pfx", 
+        "offset": [
+          0, 
+          16, 
+          0
+        ], 
+        "type": "moving"
+      }
+    }
+  ]
+}

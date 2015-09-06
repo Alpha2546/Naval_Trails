@@ -1,0 +1,19 @@
+{
+  "target": "pa/units/sea/fabrication_ship/fabrication_ship.json", 
+  "patch": [
+    {
+      "op": "add", 
+      "path": "/fx_offsets/-", 
+      "value": {
+        "bone": "bone_root", 
+        "filename": "/pa/units/sea/fabrication_ship/wtrail_generated.pfx", 
+        "offset": [
+          0, 
+          5, 
+          0
+        ], 
+        "type": "moving"
+      }
+    }
+  ]
+}

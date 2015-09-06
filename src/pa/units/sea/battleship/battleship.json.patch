@@ -1,0 +1,33 @@
+{
+  "target": "pa/units/sea/battleship/battleship.json", 
+  "patch": [
+    {
+      "op": "add", 
+      "path": "/fx_offsets/-", 
+      "value": {
+        "bone": "bone_root", 
+        "filename": "/pa/units/sea/battleship/front_strings.pfx", 
+        "offset": [
+          0, 
+          -20, 
+          0
+        ], 
+        "type": "moving"
+      }
+    }, 
+    {
+      "op": "add", 
+      "path": "/fx_offsets/-", 
+      "value": {
+        "bone": "bone_root", 
+        "filename": "/pa/units/sea/battleship/wtrail_generated.pfx", 
+        "offset": [
+          0, 
+          20, 
+          0
+        ], 
+        "type": "moving"
+      }
+    }
+  ]
+}

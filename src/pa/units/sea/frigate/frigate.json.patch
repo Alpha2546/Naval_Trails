@@ -1,0 +1,33 @@
+{
+  "target": "pa/units/sea/frigate/frigate.json", 
+  "patch": [
+    {
+      "op": "add", 
+      "path": "/fx_offsets/-", 
+      "value": {
+        "bone": "bone_root", 
+        "filename": "/pa/units/sea/frigate/front_strings.pfx", 
+        "offset": [
+          0, 
+          -8, 
+          0
+        ], 
+        "type": "moving"
+      }
+    }, 
+    {
+      "op": "add", 
+      "path": "/fx_offsets/-", 
+      "value": {
+        "bone": "bone_root", 
+        "filename": "/pa/units/sea/frigate/wtrail_generated.pfx", 
+        "offset": [
+          0, 
+          7.5, 
+          0
+        ], 
+        "type": "moving"
+      }
+    }
+  ]
+}

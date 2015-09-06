@@ -1,0 +1,33 @@
+{
+  "target": "pa/units/sea/destroyer/destroyer.json", 
+  "patch": [
+    {
+      "op": "add", 
+      "path": "/fx_offsets/-", 
+      "value": {
+        "bone": "bone_root", 
+        "filename": "/pa/units/sea/destroyer/front_strings.pfx", 
+        "offset": [
+          0, 
+          -12, 
+          0
+        ], 
+        "type": "moving"
+      }
+    }, 
+    {
+      "op": "add", 
+      "path": "/fx_offsets/-", 
+      "value": {
+        "bone": "bone_root", 
+        "filename": "/pa/units/sea/destroyer/wtrail_generated.pfx", 
+        "offset": [
+          0, 
+          12, 
+          0
+        ], 
+        "type": "moving"
+      }
+    }
+  ]
+}

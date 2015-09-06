@@ -1,0 +1,33 @@
+{
+  "target": "pa/units/sea/sea_scout/sea_scout.json", 
+  "patch": [
+    {
+      "op": "add", 
+      "path": "/fx_offsets/-", 
+      "value": {
+        "bone": "bone_root", 
+        "filename": "/pa/units/sea/sea_scout/front_strings.pfx", 
+        "offset": [
+          0, 
+          -5.5, 
+          0
+        ], 
+        "type": "moving"
+      }
+    }, 
+    {
+      "op": "add", 
+      "path": "/fx_offsets/-", 
+      "value": {
+        "bone": "bone_root", 
+        "filename": "/pa/units/sea/sea_scout/wtrail_generated.pfx", 
+        "offset": [
+          0, 
+          5.5, 
+          0
+        ], 
+        "type": "moving"
+      }
+    }
+  ]
+}
